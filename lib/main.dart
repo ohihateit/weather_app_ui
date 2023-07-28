@@ -157,7 +157,7 @@ Column _weatherCharacteristic(int value, String name) {
   );
 }
 
-_sevenDayForecast() {
+Column _sevenDayForecast() {
   return Column(
     children: [
       const Text(
